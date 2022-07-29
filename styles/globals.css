@@ -1,16 +1,524 @@
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Lato", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
-  color: inherit;
+  color: inherit ;
   text-decoration: none;
+  
+}
+p{
+  font-size: 16px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+
+.clr{
+  color: #007bff;
+}
+
+
+
+
+
+
+
+/* index Start */
+.nav .home:hover{
+  color: #496cfe !important;
+}
+.indexHeadH1  a:first-child{
+  color: #496cfe !important;
+}
+.nav .contact{
+  background-image: linear-gradient(90deg,#7040ff 0,#5a33ff 100%);
+  font-family: 'Lato', sans-serif;
+  font-size:18px !important;
+  font-weight: 600;
+  padding: 16px 37px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: -3.244px 16.688px 20px 0 rgb(0 0 0 / 25%);
+
+}
+.navbg{
+  background-color: white;
+  box-shadow: -3.244px 16.688px 20px 0 rgb(0 0 0 / 5%);
+}
+.nav .contact:hover{
+  box-shadow: -3.244px 16.688px 20px 0 rgb(0 0 0 / 0);
+}
+.ship-timing{
+  padding: 90px 0px 40px 0px;
+}
+.ship-timing .left h3{
+  font-size: 18px;
+  font-weight: 600;
+}
+.ship-timing .left{
+  box-shadow: 0 10px 30px 0 rgb(55 94 246 / 20%);
+  padding: 25px 15px;
+  border: 1px solid rgb(17 38 117 / 10%);
+  
+}
+
+.ship-timing .right{
+  
+  box-shadow: 0 3px 7px 0 rgb(55 94 246 / 20%);
+  padding: 25px 15px;
+  border: 1px solid rgb(17 38 117 / 10%);
+}
+.ship-timing .right p,.ship-timing .right span{
+  font-size: 16px;
+}
+.ship-timing .right .text-sm{
+  font-size: 14px;
+}
+
+.ship-timing .right .book{
+  background: linear-gradient(35deg,#9932f5 0,#4933f1 53%,#4950f8 70%,#496cfe 100%);
+  font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 999px;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+/* index Start */
+
+
+/* footer Start */
+.footer{
+  background-image: url("/img/footerbg.png");
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.footer .heading{
+margin-bottom: 150px;
+}
+.footer .news{
+  font-family: Lato,sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.footer .news2{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  text-transform: capitalize;
+}
+.footer .news3{
+  font-family: Lato,sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+ ul li a {
+  display: inline-flex;
+  
+align-items: center;
+color: white;
+text-decoration: none;
+margin-bottom: 14px;
+
+}
+.footer .left ul li a:hover {
+  cursor: pointer;
+  color: rgb(201, 209, 216);
+  padding: 2px 0 0 2px;
+  font-weight: bold;
+}
+
+.footer .left h1{
+  font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #fff;
+    
+}
+.footer .right{
+  padding-top: 60px;
+}
+.footer .right p{
+  font-size: 14px;
+}
+.footer .right p span{
+  font-weight: 700;
+}
+.allRights{
+  font-size: 14px;
+    color: #fff;
+    padding: 20px 100px;
+    background-color:#22212f;
+}
+.footer .shape-4{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-image: url("/img/shape-4.png");
+  background-repeat: no-repeat;
+  transform: translateZ(0px) translateY(-156.404px) translateX(-256.404px);
+  transform-origin: 10;
+}
+
+
+/* footer end */
+
+
+
+
+
+
+/* About Page Start*/
+.bggg{
+  background-image: url("/img/homebg.jpeg");
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0 0 100px 0;
+}
+.about .detail h3{
+  font-size: 28px;
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.about .detail p{
+  font-family: Lato,sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  
+}
+
+.about .detail{
+  background: url("/img/footerbg.png");
+  margin-top: 15px;
+  border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+  border-top: 1px solid #4933f1;
+  padding: 30px;
+}
+.about .detail hr {
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+  border: 0;
+  border-top: 1.5px solid #ccc;
+}
+.about .detail div{
+  width: 40%;
+}
+.about .fax p{
+  font-family: Lato,sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 130px;
+}
+
+/* About Page End*/
+
+/* Return Policy Start*/
+.returnPolicy{
+  padding-bottom: 120px;
+}
+.returnPolicy .RefundPolicy{
+text-align: center;
+    padding: 30px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+}
+.returnPolicy .RefundPolicy h1{
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: Poppins,sans-serifs;
+    color: #000;
+}
+
+.returnPolicy .RefundPolicy hr{
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid rgb(96, 96, 96);
+
+}
+
+.returnPolicy .RefundPolicy h2{
+font-family: Lato,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.returnPolicy .RefundPolicy .refundRequest table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid #dee2e6;
+}
+
+.returnPolicy .RefundPolicy .refundRequest thead{   
+   background-color: #3366BB;
+  color: white;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.returnPolicy h4{
+  background-color: #FFC433;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center!important;
+  font-size: 25px;
+  font-family: Poppins,sans-serifs;
+  color: #000;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+}
+/* Return Policy End*/
+
+
+/* PrivacyStatement Start*/
+.privacyStatement{
+  margin-top: 15px;
+  margin-bottom: 120px;
+  border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    padding: 20px;
+    
+}
+
+.privacyStatement h1{
+  font-family: Poppins,sans-serifs;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.privacyStatement hr{
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid rgb(140, 140, 140);
+}
+.privacyStatement h5 {
+  color: #3366BB;
+  font-size: 22px;
+    text-transform: capitalize;
+    font-family: Poppins,sans-serifs;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.privacyStatement p{
+  font-family: Lato,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom:1rem;
+    text-align: justify;
+}
+
+/* PrivacyStatement End*/
+
+
+/* Contact Start*/
+.contactbg{
+  background-color: #f0f2f5;
+  
+}
+
+.contact h1{
+  text-align: center;
+    padding: 2%;
+    margin: 15px 0 35px 0;
+    font-size: 2.142857rem;
+    font-family: Muli,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.2;
+    color: #171717;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.contact .contact-left{
+  width: 44%;
+  padding: 2.5%;
+  border-radius: 0.25rem;
+}
+.contact h4{
+  font-size: 1.571429rem;
+  margin-bottom: 20px;
+  font-family: Muli,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+.contact  p {
+  font-family: Lato,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.contact hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact .contact-right{
+  width: 51%;
+  padding: 15px;
+  height: max-content;
+  border-radius: 0.25rem;
+}
+.contact .contact-right input,.contact .contact-right textarea{
+  border-radius: 0.25rem;
+  padding: 0.428571rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.428572;
+  color: #575757;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d4dae3;
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out .15s;
+  margin-bottom: 16px;
+}
+.contact .contact-right label{
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #575757;
+}
+
+.contact .contact-right button{
+  margin-bottom: 16px;
+  cursor: pointer;
+  color: #0f558f;
+  width: max-content;
+  margin-left: auto;
+    background-color: #79b5ea;
+    border-color: #c8e2f8;
+    font-family: Muli,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+
+/* Contact End*/
+
+/*Refund Form start*/
+
+.refundForm{
+  background-color: #f0f2f5;
+}
+.refundForm .refundForm-div h1{
+  text-align: center!important;
+  padding:20px 0 20px 0;
+  font-family: Muli,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 600;
+  color: #171717;
+  font-size: 1.857143rem;
+}
+.refundForm .refundForm-div h2{
+  color: #3f9ce8;
+  font-size: 1.285714rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Muli,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 600;
+  line-height: 1.2;
+}
+.refundForm hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.refundForm .refundForm-div label{
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #575757;
+}
+
+
+.refundForm .refundForm-div button{
+  margin-bottom: 16px;
+  cursor: pointer;
+  color: #0f558f;
+  width: max-content;
+  margin-left: auto;
+    background-color: #79b5ea;
+    border-color: #c8e2f8;
+    font-family: Muli,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+.refundForm .refundForm-div input,.refundForm .refundForm-div textarea,
+.refundForm .refundForm-div select{
+  border-radius: 0.25rem;
+  padding: 0.428571rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.428572;
+  color: #575757;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d4dae3;
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out .15s;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.refundForm .refundForm-div .origin{
+  background-color: #e9ecef !important;
+}
+.refundForm .refundForm-div input:focus,.refundForm .refundForm-div textarea:focus,
+.refundForm .refundForm-div select{
+  outline: none;
+  border: 1px solid #d4dae3;
+}
+.refundForm .refundForm-div{
+  width: 100%;
+  padding: 15px;
+  height: max-content;
+  border-radius: 0.25rem;
+}
+
+
+.scrollUp {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #007bff;
+  position: fixed;
+  bottom: 50px;
+  z-index: 1000;
+  right: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
