@@ -45,25 +45,25 @@ const Home = () => {
 
                 <div className="contact-right bg-white">
                     <form action="" method="post" className="flex flex-col">
-                        <label for="roll">Name <span className="text-red-600">*</span></label>
+                        <label htmlFor="roll">Name <span className="text-red-600">*</span></label>
                         <input
                             type="text"
                             required
-                            minlength="3"
-                            maxlength="30"
+                            minLength="3"
+                            maxLength="30"
                             placeholder="Please enter your name"
                         />
-                        <label for="name">Email <span className="text-red-600">*</span></label>
+                        <label htmlFor="name">Email <span className="text-red-600">*</span></label>
                         <input type="Email" required
                             placeholder="Please enter your Email"
                         />
 
-                        <label for="name">Subject <span className="text-red-600">*</span></label>
+                        <label htmlFor="name">Subject <span className="text-red-600">*</span></label>
                         <input type="text" required
                             placeholder="Please enter your Subject"
                         />
 
-                        <label for="name">Massage <span className="text-red-600">*</span></label>
+                        <label htmlFor="name">Massage <span className="text-red-600">*</span></label>
                         <textarea type="Email" required rows="2"
                             placeholder="Please enter massage"
                         />

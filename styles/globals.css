@@ -40,10 +40,15 @@ p{
 .indexHeadH1  a:first-child{
   color: #496cfe !important;
 }
+.login-btn{
+  background-color:#7040ff !important;
+}
+
+
 .nav .contact{
   background-image: linear-gradient(90deg,#7040ff 0,#5a33ff 100%);
   font-family: 'Lato', sans-serif;
-  font-size:18px !important;
+  font-size:22px !important;
   font-weight: 600;
   padding: 16px 37px;
   border-radius: 10px;
@@ -521,4 +526,17 @@ font-family: Lato,sans-serif;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav .contact{
+    background-image: linear-gradient(90deg,#7040ff 0,#5a33ff 100%);
+    font-family: 'Lato', sans-serif;
+    font-size:12px !important;
+    font-weight: 400;
+    padding: 8px 17px;
+    border-radius: 10px;
+  }
 }

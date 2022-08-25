@@ -11,8 +11,9 @@
    
 }
 .ferry{
-  padding: 300px 0px 0 300px;
+  padding: 300px 0px 0px 300px;
   font-size: 70px;
+  margin-left: -70px;
   font-weight: 700;
   text-transform: capitalize;
   color: #fff;

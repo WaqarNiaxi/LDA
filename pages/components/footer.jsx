@@ -14,7 +14,7 @@ const Footer=()=>{
                 <div className='col-6 flex flex-col mx-auto text-center'>
                   <p className='news mb-0'>NEWSLETTER</p>
                   <p className="news2 pt-0 mt-0">Get The Latest News</p>
-                  <p class="news3">Get the latest travel inspirations and deals from LDA semimonthly with your email. You can unsubscribe at any time. Your privacy & personal information will be treated.</p>
+                  <p className="news3">Get the latest travel inspirations and deals from LDA semimonthly with your email. You can unsubscribe at any time. Your privacy & personal information will be treated.</p>
                 </div>
            </div>
            <div className='row m-0 p-0 flex justify-evenly'>

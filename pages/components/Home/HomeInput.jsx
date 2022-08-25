@@ -44,18 +44,18 @@ const HomeInput = () => {
       
       <div className={`grid grid-cols-2 md:grid-cols-4 gap-4 relative`}>
         <select className={` form-select cursor-pointer ${Style.formSelect}`}>
-          <option defaultValue="" selected>From</option>
-          <option defaultValue="Labuan">Labuan</option>
+          <option defaultValue="" >From</option>
+          <option value="Labuan">Labuan</option>
         </select>
 
         <select className={` form-select cursor-pointer ${Style.formSelect}`}>
           
-         <option selected  defaultValue="">To</option>
-          <option defaultValue="Mernumhok">Mernumhok</option>
-          <option defaultValue="Sipitang">Sipitang</option>
-          <option defaultValue="Limbang">Limbang</option>
-          <option defaultValue="Lawas">Lawas</option>
-          <option defaultValue="Kota Kinabalu">Kota Kinabalu</option>
+          <option defaultValue="">To</option>
+          <option value="Mernumhok">Mernumhok</option>
+          <option value="Sipitang">Sipitang</option>
+          <option value="Limbang">Limbang</option>
+          <option value="Lawas">Lawas</option>
+          <option value="Kota Kinabalu">Kota Kinabalu</option>
           
         </select>
 
@@ -73,15 +73,15 @@ const HomeInput = () => {
         
 
         <select className={` form-select cursor-pointer ${Style.formSelect}`}>
-          <option selected>Nationality</option>
-          <option defaultValue="Mernumhok">Malaysian</option>
-          <option defaultValue="Sipitang">Non-Malaysian</option>
+          <option defaultValue="">Nationality</option>
+          <option value="Mernumhok">Malaysian</option>
+          <option value="Sipitang">Non-Malaysian</option>
 
         </select>
         <select className={` form-select cursor-pointer mt-2 ${Style.formSelect} `}>
-          <option selected >Payment</option>
-          <option defaultValue="Mernumhok">Card</option>
-          <option defaultValue="Sipitang">Online Banking</option>
+          <option defaultValue="">Payment</option>
+          <option value="Mernumhok">Card</option>
+          <option value="Sipitang">Online Banking</option>
 
         </select>
 
@@ -89,12 +89,9 @@ const HomeInput = () => {
         <div className='col-span-2 md:col-span-3 mt-2 flex' onClick={seattype} >
         
           <div className={`form-select cursor-pointer ${Style.formSelect}`} >Please Select the Seat Type </div>
-
-
-         
-
-          
-         <button className={`mx-3 bsSearch ${Style.book}`}> <BsSearch className={`${Style.Searchbs}`}/></button>
+          <div> 
+          <button className={`mx-3 bsSearch ${Style.book}`}> <BsSearch className={`${Style.Searchbs}`}/></button>
+          </div>
         </div>
 
         <div className={`hidden ${Style.bk}`} id="seattype">

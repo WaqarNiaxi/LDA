@@ -120,9 +120,12 @@ export default function Home() {
                     <p className='clr m-0'>Infant below 2 years old</p>
                     <p className='text-sm m-0'><span className='clr font-bold text-lg'>MYR 25.0</span> Per Person</p>
                   </div>
-                  <div className='flex mt-4 justify-start'>
-                    <button className='btn book'> Book</button>
+                  
+                  <Link href="/tickets/ticketingReview" > 
+                  <div className='inline-flex mt-4 justify-start'>
+                    <a className='btn book'>Book</a>
                   </div>
+                  </Link>
                 </div>
 
               </div>
